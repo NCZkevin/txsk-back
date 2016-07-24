@@ -71,7 +71,4 @@ exports.txskNews = function(req,res){
             });
         });
     });
-
-
-
 };
