@@ -1,0 +1,25 @@
+{
+  "name": "txsk-back",
+  "version": "0.0.1",
+  "description": "txsk-back restful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NCZkevin/txsk-back.git"
+  },
+  "author": "nczkevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NCZkevin/txsk-back/issues"
+  },
+  "homepage": "https://github.com/NCZkevin/txsk-back#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.6",
+    "superagent": "^2.1.0"
+  }
+}
