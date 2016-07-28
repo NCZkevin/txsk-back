@@ -71,4 +71,44 @@ exports.txskNews = function(req,res){
             });
         });
     });
+//   var txsknews = {};
+// //   function addnews(a) {
+// //     txsknews.push(a);
+// // }
+// var pynew = function(url,callback) {
+//   var xinwen;
+//  request
+//     .get(url)
+//     .charset('gbk')
+//     .end(function(err,sres){
+//       if (err) {
+//         res.json(err);
+//       }
+//       const news = [];
+//       var $ = cheerio.load(sres.text);
+//       $('.listArrow1  li > a').each(function(i,elem){
+//         var $elem = $(elem);
+//         if (i <= 5) {
+//           news.push({
+//             title: $elem.attr('title'),
+//             href: baseUrl + $elem.attr('href').substr(2)
+//           });
+//         }
+//       });
+//       console.log(news);
+//       callback(news);
+//       xinwen = news;
+//     });
+//     return xinwen;
+// };
+// pynew('http://news.youth.ncu.edu.cn/news/?list_11.html',function(res){
+//   // console.log(res);
+//   // txsknews[1] = res;
+//   // console.log(txsknews[1]);
+//   // return txsknews;
+//   txsknews = res;
+//   console.log(txsknews);
+// });
+//     console.log(txsknews + "1");
+//   res.json(txsknews);
 };
