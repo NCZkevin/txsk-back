@@ -40,7 +40,7 @@ exports.txskNews = function(req,res){
             if (i <= 5) {
               yxdt.push({
                 title: $elem.attr('title'),
-                href: $elem.attr('href')
+                href: baseUrl + $elem.attr('href').substr(2)
               });
             }
           });
@@ -57,7 +57,7 @@ exports.txskNews = function(req,res){
                 if (i <= 5) {
                   tzgg.push({
                     title: $elem.attr('title'),
-                    href: $elem.attr('href')
+                    href: baseUrl + $elem.attr('href').substr(2)
                   });
                 }
               });
