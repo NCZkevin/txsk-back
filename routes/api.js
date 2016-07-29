@@ -7,7 +7,7 @@ module.exports = function(app){
   app.get('/api/txsknews',News.txskNews);
 //首页幻灯片
   app.get('/api/slide',Index.getSlide);
-
+  app.post('/api/slide');
 //首页活动
 
 
